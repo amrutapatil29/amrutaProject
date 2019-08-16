@@ -10,4 +10,4 @@ soup= BeautifulSoup(response.text, 'html.parser')
 all_links= soup.findAll("a")
 
 for links in all_links:
-    print (links.get('href'))
+    print (links.get("href"))
